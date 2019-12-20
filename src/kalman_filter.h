@@ -16,7 +16,8 @@ class KalmanFilter {
    */
   virtual ~KalmanFilter();
 
-  /**
+  
+ /**
    * Init Initializes Kalman filter
    * @param x_in Initial state
    * @param P_in Initial state covariance
