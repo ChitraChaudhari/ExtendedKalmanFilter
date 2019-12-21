@@ -14,7 +14,6 @@ using std::vector;
  */
 FusionEKF::FusionEKF() {
   is_initialized_ = false;
-
   previous_timestamp_ = 0;
 
   // initializing matrices
