@@ -35,6 +35,7 @@ VectorXd Tools::CalculateRMSE(const vector<VectorXd> &estimations,
     residual = residual.array()*residual.array();
     rmse += residual;
   }
+  
 
   // calculate the mean
   rmse = rmse/estimations.size();
