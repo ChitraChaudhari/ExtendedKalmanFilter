@@ -14,7 +14,7 @@ Then the prediction and update steps repeat themselves in a loop.
 To measure how well Kalman filter performs, we then calculate root mean squared error comparing the Kalman filter results with the provided ground truth.
 
 Here's the output performance of  EKF filter
-[![https://youtu.be/h1k4ihFT25w ](https://youtu.be/h1k4ihFT25w )
+[![](https://youtu.be/h1k4ihFT25w)](https://youtu.be/h1k4ihFT25w)
 
 ## Simulator
 
