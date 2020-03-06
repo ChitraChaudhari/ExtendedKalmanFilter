@@ -1,9 +1,26 @@
-# Extended Kalman Filter Project Starter Code
+# Extended Kalman Filter Project 
 Self-Driving Car Engineer Nanodegree Program
 
-In this project you will utilize a kalman filter to estimate the state of a moving object of interest with noisy lidar and radar measurements. 
+## Project Description
+
+This project utilizes a kalman filter to estimate the state of a moving object of interest with noisy lidar and radar measurements. 
+
+Three main steps used to implement an Extended Kalman filter are:
+- initializing Kalman filter variables
+- predicting where our object is going to be after a time step Δt
+-	updating where our object is based on sensor measurements
+Then the prediction and update steps repeat themselves in a loop.
+
+To measure how well Kalman filter performs, we then calculate root mean squared error comparing the Kalman filter results with the provided ground truth.
+
+Here's the output performance of  EKF filter
+[![https://youtu.be/h1k4ihFT25w ](https://youtu.be/h1k4ihFT25w )
+
+## Simulator
 
 This project involves the Term 2 Simulator which can be downloaded [here](https://github.com/udacity/self-driving-car-sim/releases)
+
+## Project requirements & dependencies
 
 This repository includes two files that can be used to set up and install [uWebSocketIO](https://github.com/uWebSockets/uWebSockets) for either Linux or Mac systems. For windows you can use either Docker, VMware, or even [Windows 10 Bash on Ubuntu](https://www.howtogeek.com/249966/how-to-install-and-use-the-linux-bash-shell-on-windows-10/) to install uWebSocketIO. Please see the uWebSocketIO Starter Guide page in the classroom within the EKF Project lesson for the required version and installation scripts.
 
@@ -32,7 +49,6 @@ OUTPUT: values provided by the c++ program to the simulator
 
 ## Other Important Dependencies
 
-
 * cmake >= 3.5
   * All OSes: [click here for installation instructions](https://cmake.org/install/)
 * make >= 4.1 (Linux, Mac), 3.81 (Windows)
@@ -59,23 +75,6 @@ OUTPUT: values provided by the c++ program to the simulator
 
 ## Hints and Tips!
  * Please note that the ```Eigen``` library does not initialize ```VectorXd``` or ```MatrixXd``` objects with zeros upon creation.
-
-## Call for IDE Profiles Pull Requests
-
-Help your fellow students!
-
-We decided to create Makefiles with cmake to keep this project as platform
-agnostic as possible. Similarly, we omitted IDE profiles in order to ensure
-that students don't feel pressured to use one IDE or another.
-
-However! We'd love to help people get up and running with their IDEs of choice.
-If you've created a profile for an IDE that you think other students would
-appreciate, we'd love to have you add the requisite profile files and
-instructions to ide_profiles/. For example if you wanted to add a VS Code
-profile, you'd add:
-
-* /ide_profiles/vscode/.vscode
-* /ide_profiles/vscode/README.md
 
 
 
